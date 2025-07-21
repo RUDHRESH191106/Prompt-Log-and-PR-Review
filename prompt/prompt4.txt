@@ -1,0 +1,13 @@
+ Prompt Log Entry 4
+Prompt:
+
+“Give me CSS to design a header with brand name and navigation links using Flexbox”
+AI’s Response Summary:
+
+Told me to use display: flex, justify-content: space-between, and align-items: center, along with link spacing and hover effects.
+My Implementation:
+
+Used it in the header and nav a sections. Added margin between links and color change on hover.
+Reflection:
+
+This made the header look professional and responsive. I now understand header layouts more confidently.
