@@ -135,4 +135,157 @@
         padding: 20px;
         box-sizing: border-box;
     }
-    
+/* Give me CSS to design a header with brand name and navigation links using Flexbox */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+.header .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+.header nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+}
+.header nav a.active:hover {
+    border-bottom: 2px solid #0056b3;
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+.header nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+}
+.header nav a.active:hover {
+    border-bottom: 2px solid #0056b3;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+.header .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+.header nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+}
+.header nav a.active:hover {
+    border-bottom: 2px solid #0056b3;
+}
+
+/* How can I style product cards with shadows, border-radius, and hover lift effect? */
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 20px;
+    text-align: center;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+.product-card p {
+    font-size: 1em;
+    color: #6c757d;
+}
+.product-card button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-card button:hover {
+    background-color: #0056b3;
+}
+.product-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 20px;
+    text-align: center;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+.product-card p {
+    font-size: 1em;
+    color: #6c757d;
+}
+.product-card button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-card button:hover {
+    background-color: #0056b3;
+}
