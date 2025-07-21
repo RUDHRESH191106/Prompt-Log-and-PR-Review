@@ -1,0 +1,138 @@
+/* “How to create a centered hero section with text and a call-to-action button using Flexbox and a gradient background?” */
+ body, html {
+        margin: 0;
+     font-family: Arial, sans-serif;
+ }
+ 
+ .hero {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     background: linear-gradient(to right, #4facfe, #00f2fe);
+     color: white;
+     text-align: center;
+ }
+ 
+ .hero h1 {
+     font-size: 3em;
+     margin-bottom: 20px;
+ }
+ 
+ .hero p {
+     font-size: 1.2em;
+     margin-bottom: 30px;
+ }
+ 
+ .hero button {
+     padding: 10px 20px;
+     font-size: 1em;
+     color: white;
+     background-color: #007bff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .hero button:hover {
+     background-color: #0056b3;
+ }
+
+ /* “How can I build a responsive product grid layout using CSS Grid that adapts to screen size?” */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .product-item {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+    }
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    .product-item h3 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+    .product-item p {
+        font-size: 1em;
+        color: #6c757d;
+    }
+    .product-item button {
+        padding: 10px 15px;
+        font-size: 1em;
+        color: white;
+        background-color: #28a745;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .product-item button:hover {
+        background-color: #218838;
+    }
+    body, html {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        height: 100%;
+        background-color: #f0f2f5;
+
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: white;
+        text-align: center;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: white;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    .hero p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+    .hero button {
+        padding: 10px 20px;
+        font-size: 1em;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .hero button:hover {
+        background-color: #0056b3;
+    }
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
