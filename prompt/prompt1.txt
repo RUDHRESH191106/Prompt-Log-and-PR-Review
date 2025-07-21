@@ -1,0 +1,12 @@
+✅ Prompt Log Entry 1
+Prompt:
+“How to create a centered hero section with text and a call-to-action button using Flexbox and a gradient background?”
+
+AI’s Response Summary:
+Copilot suggested using display: flex, flex-direction: column, justify-content: center, and align-items: center. It also recommended using linear-gradient() for background and adding spacing with padding.
+
+My Implementation:
+I applied this to the .hero section. It vertically and horizontally centers the content and gives it a clean gradient look.
+
+Reflection:
+This prompt gave me a professional-looking hero section and improved my Flexbox skills. The gradient added a modern design element.
