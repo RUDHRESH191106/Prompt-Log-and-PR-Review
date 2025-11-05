@@ -1,12 +1,31 @@
-✅ Prompt Log Entry 1
-Prompt:
-“How to create a centered hero section with text and a call-to-action button using Flexbox and a gradient background?”
+Prompt 1: “How can I create a modern e-commerce header with a logo on the left and navigation links on the right using Flexbox?”
+AI Suggestion: Use display: flex; justify-content: space-between; align-items: center;.
+My Implementation: Added sticky header and hover underline effect.
+Reflection: Learned how simple Flexbox properties can build professional layouts.
 
-AI’s Response Summary:
-Copilot suggested using display: flex, flex-direction: column, justify-content: center, and align-items: center. It also recommended using linear-gradient() for background and adding spacing with padding.
+Prompt 2: “How do I center text and a button vertically and horizontally in a hero section?”
+AI Suggestion: Use flexbox and set height to 100vh.
+My Implementation: Added gradient overlay + background image.
+Reflection: Understood vertical centering better and improved hero aesthetics.
 
-My Implementation:
-I applied this to the .hero section. It vertically and horizontally centers the content and gives it a clean gradient look.
+Prompt 3: “How to create stylish buttons with hover animations?”
+AI Suggestion: Add transition, transform, and color change on hover.
+My Implementation: Used consistent rounded buttons and subtle movement.
+Reflection: Learned about transitions for interactive UI.
 
-Reflection:
-This prompt gave me a professional-looking hero section and improved my Flexbox skills. The gradient added a modern design element.
+Prompt 4: “How can I use CSS Grid to arrange product cards responsively?”
+AI Suggestion: Use grid-template-columns: repeat(auto-fit, minmax(...)).
+My Implementation: Applied grid and adjusted spacing.
+Reflection: Understood the power of auto-fit and responsive columns.
+
+Prompt 5: “How can I style product cards with shadows and hover lift effect?”
+AI Suggestion: Add box-shadow and slight transform on hover.
+My Implementation: Created neat product hover animation.
+Reflection: Gained confidence in creating polished card UIs.
+
+PR Reviewed: [Rithik]
+
+Insight 1: Liked how she prompted AI for “subtle gradient backgrounds per section” — added good visual hierarchy.
+
+Insight 2: Her prompt for “scaling product cards smoothly” gave a cool transition idea — I’ll use cubic-bezier easing next time.
+
